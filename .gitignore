@@ -1,0 +1,37 @@
+# General
+.DS_Store
+*.log
+.env
+.env.local
+.env.*.local
+
+# Python / Backend
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+backend/.pytest_cache/
+backend/wanderlist.db
+backend/alembic.ini
+backend/migrations/
+backend/.coverage
+backend/htmlcov/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.npm/
+frontend/build/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project Plans
+docs/implementation-plan.md
+docs/detailed-plan/

@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "destination": "Golden Gate Bridge",
+    "city": "San Francisco",
+    "state": "CA",
+    "description": "An iconic suspension bridge spanning the Golden Gate Strait with stunning bay views.",
+    "image_url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800",
+    "category": "Landmark"
+  },
+  {
+    "id": 2,
+    "destination": "Hollywood Sign",
+    "city": "Los Angeles",
+    "state": "CA",
+    "description": "The world-famous hillside sign representing the entertainment capital of the world.",
+    "image_url": "https://images.unsplash.com/photo-1609924211018-5526c55bad5b?w=800",
+    "category": "Landmark"
+  },
+  {
+    "id": 3,
+    "destination": "Mount Rainier",
+    "city": "Seattle",
+    "state": "WA",
+    "description": "A towering snow-capped volcano surrounded by alpine meadows and hiking trails.",
+    "image_url": "https://images.unsplash.com/photo-1599551528722-6b6d968512a2?w=800",
+    "category": "Mountain"
+  },
+  {
+    "id": 4,
+    "destination": "The Sphere",
+    "city": "Las Vegas",
+    "state": "NV",
+    "description": "A futuristic entertainment arena known for its massive LED exterior display.",
+    "image_url": "https://images.unsplash.com/photo-1767582008032-6cc595db67e7?w=800",
+    "category": "Entertainment"
+  },
+  {
+    "id": 5,
+    "destination": "Statue of Liberty",
+    "city": "New York City",
+    "state": "NY",
+    "description": "A symbol of freedom welcoming visitors to New York Harbor.",
+    "image_url": "https://images.unsplash.com/photo-1503572327579-b5c6afe5c5c5?w=800",
+    "category": "Monument"
+  },
+  {
+    "id": 6,
+    "destination": "Times Square",
+    "city": "New York City",
+    "state": "NY",
+    "description": "Bright billboards, theaters, and nonstop energy in the heart of Manhattan.",
+    "image_url": "https://images.unsplash.com/photo-1695147383484-621b933811d6?w=800",
+    "category": "City"
+  },
+  {
+    "id": 7,
+    "destination": "Central Park",
+    "city": "New York City",
+    "state": "NY",
+    "description": "A sprawling urban oasis with lakes, trails, and iconic city views.",
+    "image_url": "https://images.unsplash.com/photo-1631729779674-1f369e1116b4?w=800",
+    "category": "Park"
+  },
+  {
+    "id": 8,
+    "destination": "Grand Canyon",
+    "city": "Grand Canyon Village",
+    "state": "AZ",
+    "description": "A breathtaking natural wonder carved by the Colorado River.",
+    "image_url": "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 9,
+    "destination": "Yosemite Valley",
+    "city": "Yosemite National Park",
+    "state": "CA",
+    "description": "Granite cliffs, waterfalls, and giant sequoias in a legendary national park.",
+    "image_url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 10,
+    "destination": "Disneyland",
+    "city": "Anaheim",
+    "state": "CA",
+    "description": "The original Disney theme park filled with rides, characters, and magic.",
+    "image_url": "https://images.unsplash.com/photo-1513883049090-d0b7439799bf?w=800",
+    "category": "Theme Park"
+  },
+  {
+    "id": 11,
+    "destination": "Waikiki Beach",
+    "city": "Honolulu",
+    "state": "HI",
+    "description": "A famous Hawaiian beach known for surfing, sunsets, and luxury resorts.",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "category": "Beach"
+  },
+  {
+    "id": 12,
+    "destination": "Niagara Falls",
+    "city": "Niagara Falls",
+    "state": "NY",
+    "description": "Powerful waterfalls attracting millions of visitors every year.",
+    "image_url": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=800",
+    "category": "Waterfall"
+  },
+  {
+    "id": 13,
+    "destination": "Space Needle",
+    "city": "Seattle",
+    "state": "WA",
+    "description": "A futuristic observation tower offering panoramic views of Seattle.",
+    "image_url": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800",
+    "category": "Landmark"
+  },
+  {
+    "id": 14,
+    "destination": "Pike Place Market",
+    "city": "Seattle",
+    "state": "WA",
+    "description": "Historic waterfront market famous for fresh seafood and local culture.",
+    "image_url": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "category": "Market"
+  },
+  {
+    "id": 15,
+    "destination": "Yellowstone National Park",
+    "city": "Yellowstone",
+    "state": "WY",
+    "description": "America’s first national park featuring geysers, wildlife, and hot springs.",
+    "image_url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 16,
+    "destination": "Mount Rushmore",
+    "city": "Keystone",
+    "state": "SD",
+    "description": "Massive granite carvings of four U.S. presidents in the Black Hills.",
+    "image_url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800",
+    "category": "Monument"
+  },
+  {
+    "id": 17,
+    "destination": "The Alamo",
+    "city": "San Antonio",
+    "state": "TX",
+    "description": "Historic Spanish mission and symbol of Texas independence.",
+    "image_url": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800",
+    "category": "Historic Site"
+  },
+  {
+    "id": 18,
+    "destination": "French Quarter",
+    "city": "New Orleans",
+    "state": "LA",
+    "description": "A vibrant district filled with jazz, Creole cuisine, and historic architecture.",
+    "image_url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800",
+    "category": "Historic District"
+  },
+  {
+    "id": 19,
+    "destination": "Walt Disney World",
+    "city": "Orlando",
+    "state": "FL",
+    "description": "A massive entertainment resort featuring theme parks and attractions.",
+    "image_url": "https://images.unsplash.com/photo-1513883049090-d0b7439799bf?w=800",
+    "category": "Theme Park"
+  },
+  {
+    "id": 20,
+    "destination": "South Beach",
+    "city": "Miami",
+    "state": "FL",
+    "description": "A glamorous beach destination known for nightlife and Art Deco buildings.",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "category": "Beach"
+  },
+  {
+    "id": 21,
+    "destination": "Gateway Arch",
+    "city": "St. Louis",
+    "state": "MO",
+    "description": "A soaring stainless steel monument symbolizing westward expansion.",
+    "image_url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=800",
+    "category": "Monument"
+  },
+  {
+    "id": 22,
+    "destination": "Bryce Canyon",
+    "city": "Bryce",
+    "state": "UT",
+    "description": "A spectacular landscape filled with red rock hoodoos and scenic trails.",
+    "image_url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 23,
+    "destination": "Zion National Park",
+    "city": "Springdale",
+    "state": "UT",
+    "description": "Towering sandstone cliffs and adventurous hikes in southern Utah.",
+    "image_url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 24,
+    "destination": "Arches National Park",
+    "city": "Moab",
+    "state": "UT",
+    "description": "A desert wonderland with more than 2,000 natural sandstone arches.",
+    "image_url": "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 25,
+    "destination": "Lake Tahoe",
+    "city": "South Lake Tahoe",
+    "state": "CA",
+    "description": "A crystal-clear alpine lake surrounded by mountains and ski resorts.",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800",
+    "category": "Lake"
+  },
+  {
+    "id": 26,
+    "destination": "Navy Pier",
+    "city": "Chicago",
+    "state": "IL",
+    "description": "A lively waterfront attraction with rides, dining, and lake views.",
+    "image_url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=800",
+    "category": "Waterfront"
+  },
+  {
+    "id": 27,
+    "destination": "Millennium Park",
+    "city": "Chicago",
+    "state": "IL",
+    "description": "Home to Cloud Gate and modern public art in downtown Chicago.",
+    "image_url": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800",
+    "category": "Park"
+  },
+  {
+    "id": 28,
+    "destination": "Cloud Gate",
+    "city": "Chicago",
+    "state": "IL",
+    "description": "The reflective Bean sculpture and one of Chicago’s most photographed landmarks.",
+    "image_url": "https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=800",
+    "category": "Art"
+  },
+  {
+    "id": 29,
+    "destination": "Rocky Mountain National Park",
+    "city": "Estes Park",
+    "state": "CO",
+    "description": "Dramatic mountain peaks, alpine lakes, and scenic drives in Colorado.",
+    "image_url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 30,
+    "destination": "Pikes Peak",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "description": "A famous mountain summit with breathtaking panoramic views.",
+    "image_url": "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=800",
+    "category": "Mountain"
+  },
+  {
+    "id": 31,
+    "destination": "Balboa Park",
+    "city": "San Diego",
+    "state": "CA",
+    "description": "A cultural park filled with museums, gardens, and Spanish architecture.",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800",
+    "category": "Park"
+  },
+  {
+    "id": 32,
+    "destination": "Santa Monica Pier",
+    "city": "Santa Monica",
+    "state": "CA",
+    "description": "A classic California pier with rides, restaurants, and ocean views.",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "category": "Beach"
+  },
+  {
+    "id": 33,
+    "destination": "Death Valley National Park",
+    "city": "Death Valley",
+    "state": "CA",
+    "description": "An extreme desert landscape with sand dunes and salt flats.",
+    "image_url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 34,
+    "destination": "Monument Valley",
+    "city": "Oljato",
+    "state": "AZ",
+    "description": "Iconic red sandstone buttes rising from the desert landscape.",
+    "image_url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800",
+    "category": "Desert"
+  },
+  {
+    "id": 35,
+    "destination": "Antelope Canyon",
+    "city": "Page",
+    "state": "AZ",
+    "description": "A stunning slot canyon famous for colorful sandstone formations.",
+    "image_url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800",
+    "category": "Canyon"
+  },
+  {
+    "id": 36,
+    "destination": "Horseshoe Bend",
+    "city": "Page",
+    "state": "AZ",
+    "description": "A dramatic horseshoe-shaped curve of the Colorado River.",
+    "image_url": "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=800",
+    "category": "Scenic View"
+  },
+  {
+    "id": 37,
+    "destination": "Glacier National Park",
+    "city": "West Glacier",
+    "state": "MT",
+    "description": "Pristine lakes, rugged peaks, and scenic wilderness in Montana.",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 38,
+    "destination": "Denali National Park",
+    "city": "Denali Park",
+    "state": "AK",
+    "description": "Home to North America’s tallest mountain and abundant wildlife.",
+    "image_url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 39,
+    "destination": "Maui Road to Hana",
+    "city": "Hana",
+    "state": "HI",
+    "description": "A scenic coastal drive featuring waterfalls and tropical landscapes.",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "category": "Scenic Drive"
+  },
+  {
+    "id": 40,
+    "destination": "Pearl Harbor",
+    "city": "Honolulu",
+    "state": "HI",
+    "description": "Historic naval site commemorating World War II history.",
+    "image_url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=800",
+    "category": "Historic Site"
+  },
+  {
+    "id": 41,
+    "destination": "Bourbon Street",
+    "city": "New Orleans",
+    "state": "LA",
+    "description": "A lively nightlife destination known for music and celebrations.",
+    "image_url": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "category": "Entertainment"
+  },
+  {
+    "id": 42,
+    "destination": "Savannah Historic District",
+    "city": "Savannah",
+    "state": "GA",
+    "description": "A charming Southern district with oak-lined streets and historic squares.",
+    "image_url": "https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=800",
+    "category": "Historic District"
+  },
+  {
+    "id": 43,
+    "destination": "Fenway Park",
+    "city": "Boston",
+    "state": "MA",
+    "description": "One of America’s oldest and most beloved baseball stadiums.",
+    "image_url": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800",
+    "category": "Sports"
+  },
+  {
+    "id": 44,
+    "destination": "Freedom Trail",
+    "city": "Boston",
+    "state": "MA",
+    "description": "A walking route connecting important sites from the American Revolution.",
+    "image_url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=800",
+    "category": "Historic Site"
+  },
+  {
+    "id": 45,
+    "destination": "Acadia National Park",
+    "city": "Bar Harbor",
+    "state": "ME",
+    "description": "Rocky Atlantic coastline and scenic mountain views in Maine.",
+    "image_url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 46,
+    "destination": "White House",
+    "city": "Washington",
+    "state": "DC",
+    "description": "The official residence and workplace of the U.S. president.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Government"
+  },
+  {
+    "id": 47,
+    "destination": "Lincoln Memorial",
+    "city": "Washington",
+    "state": "DC",
+    "description": "A grand memorial honoring President Abraham Lincoln.",
+    "image_url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=800",
+    "category": "Monument"
+  },
+  {
+    "id": 48,
+    "destination": "Smithsonian National Air and Space Museum",
+    "city": "Washington",
+    "state": "DC",
+    "description": "A world-renowned museum showcasing aviation and space exploration history.",
+    "image_url": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800",
+    "category": "Museum"
+  },
+  {
+    "id": 49,
+    "destination": "The Strip",
+    "city": "Las Vegas",
+    "state": "NV",
+    "description": "A dazzling boulevard lined with casinos, resorts, and entertainment venues.",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800",
+    "category": "Entertainment"
+  },
+  {
+    "id": 50,
+    "destination": "Hoover Dam",
+    "city": "Boulder City",
+    "state": "NV",
+    "description": "An engineering marvel spanning the Colorado River.",
+    "image_url": "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=800",
+    "category": "Engineering"
+  },
+  {
+    "id": 51,
+    "destination": "Bryant Park",
+    "city": "New York City",
+    "state": "NY",
+    "description": "A lively public park surrounded by skyscrapers, known for events and seasonal attractions.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Park"
+  },
+  {
+    "id": 52,
+    "destination": "Alcatraz Island",
+    "city": "San Francisco",
+    "state": "CA",
+    "description": "Historic island prison offering tours and panoramic views of San Francisco Bay.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Historic Site"
+  },
+  {
+    "id": 53,
+    "destination": "Red Rocks Amphitheatre",
+    "city": "Morrison",
+    "state": "CO",
+    "description": "A natural outdoor amphitheater famous for concerts and scenic rock formations.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Entertainment"
+  },
+  {
+    "id": 54,
+    "destination": "Joshua Tree National Park",
+    "city": "Joshua Tree",
+    "state": "CA",
+    "description": "A unique desert park known for rugged landscapes and iconic Joshua trees.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 55,
+    "destination": "Cedar Point",
+    "city": "Sandusky",
+    "state": "OH",
+    "description": "A legendary amusement park featuring world-class roller coasters.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Theme Park"
+  },
+  {
+    "id": 56,
+    "destination": "Cape Canaveral",
+    "city": "Cape Canaveral",
+    "state": "FL",
+    "description": "Historic launch site for NASA missions and space exploration programs.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Space"
+  },
+  {
+    "id": 57,
+    "destination": "Lake Powell",
+    "city": "Page",
+    "state": "AZ",
+    "description": "A scenic reservoir surrounded by red rock canyons and boating adventures.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Lake"
+  },
+  {
+    "id": 58,
+    "destination": "Big Sur",
+    "city": "Big Sur",
+    "state": "CA",
+    "description": "A dramatic stretch of California coastline with cliffs and ocean views.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Scenic Drive"
+  },
+  {
+    "id": 59,
+    "destination": "Crater Lake National Park",
+    "city": "Crater Lake",
+    "state": "OR",
+    "description": "A stunning deep-blue lake formed inside a collapsed volcano.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 60,
+    "destination": "Beale Street",
+    "city": "Memphis",
+    "state": "TN",
+    "description": "A historic street famous for blues music, nightlife, and Southern culture.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Entertainment"
+  },
+  {
+    "id": 61,
+    "destination": "Mammoth Cave National Park",
+    "city": "Mammoth Cave",
+    "state": "KY",
+    "description": "Home to the world’s longest known cave system with underground tours.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 62,
+    "destination": "Mount Hood",
+    "city": "Government Camp",
+    "state": "OR",
+    "description": "A majestic volcanic peak popular for skiing and hiking adventures.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Mountain"
+  },
+  {
+    "id": 63,
+    "destination": "Sedona Red Rocks",
+    "city": "Sedona",
+    "state": "AZ",
+    "description": "Famous red sandstone formations surrounded by desert beauty.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Desert"
+  },
+  {
+    "id": 64,
+    "destination": "Myrtle Beach",
+    "city": "Myrtle Beach",
+    "state": "SC",
+    "description": "A popular coastal destination with beaches, golf, and entertainment.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Beach"
+  },
+  {
+    "id": 65,
+    "destination": "Carlsbad Caverns",
+    "city": "Carlsbad",
+    "state": "NM",
+    "description": "An underground wonder featuring enormous limestone caves and formations.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Cave"
+  },
+  {
+    "id": 66,
+    "destination": "Badlands National Park",
+    "city": "Interior",
+    "state": "SD",
+    "description": "Dramatic layered rock formations and prairie landscapes in South Dakota.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 67,
+    "destination": "Cannon Beach",
+    "city": "Cannon Beach",
+    "state": "OR",
+    "description": "A picturesque Oregon beach known for Haystack Rock and coastal scenery.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Beach"
+  },
+  {
+    "id": 68,
+    "destination": "Biltmore Estate",
+    "city": "Asheville",
+    "state": "NC",
+    "description": "A grand historic mansion surrounded by gardens and mountain views.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Historic Site"
+  },
+  {
+    "id": 69,
+    "destination": "Key West",
+    "city": "Key West",
+    "state": "FL",
+    "description": "A tropical island city famous for sunsets, beaches, and lively nightlife.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Island"
+  },
+  {
+    "id": 70,
+    "destination": "Devils Tower",
+    "city": "Devils Tower",
+    "state": "WY",
+    "description": "A striking volcanic rock formation rising above the Wyoming plains.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Landmark"
+  },
+  {
+    "id": 71,
+    "destination": "Lake Michigan Shore",
+    "city": "Milwaukee",
+    "state": "WI",
+    "description": "A scenic lakeside destination with beaches, parks, and waterfront attractions.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Waterfront"
+  },
+  {
+    "id": 72,
+    "destination": "Taos Pueblo",
+    "city": "Taos",
+    "state": "NM",
+    "description": "An ancient adobe settlement and UNESCO World Heritage Site.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Historic Site"
+  },
+  {
+    "id": 73,
+    "destination": "Great Smoky Mountains",
+    "city": "Gatlinburg",
+    "state": "TN",
+    "description": "A beloved mountain region known for misty peaks and diverse wildlife.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 74,
+    "destination": "River Walk",
+    "city": "San Antonio",
+    "state": "TX",
+    "description": "A charming network of walkways lined with restaurants and shops along the river.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Waterfront"
+  },
+  {
+    "id": 75,
+    "destination": "Charleston Historic District",
+    "city": "Charleston",
+    "state": "SC",
+    "description": "A historic Southern district filled with colorful homes and cobblestone streets.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Historic District"
+  },
+  {
+    "id": 76,
+    "destination": "Sequoia National Park",
+    "city": "Three Rivers",
+    "state": "CA",
+    "description": "A majestic national park home to giant sequoia trees and mountain landscapes.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 77,
+    "destination": "Lake Mead",
+    "city": "Boulder City",
+    "state": "NV",
+    "description": "A massive reservoir popular for boating, fishing, and desert recreation.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Lake"
+  },
+  {
+    "id": 78,
+    "destination": "Sun Valley",
+    "city": "Sun Valley",
+    "state": "ID",
+    "description": "A scenic mountain resort town known for skiing and outdoor adventures.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Mountain"
+  },
+  {
+    "id": 79,
+    "destination": "Everglades National Park",
+    "city": "Homestead",
+    "state": "FL",
+    "description": "A vast subtropical wilderness filled with wetlands and wildlife.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 80,
+    "destination": "Route 66",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "description": "A legendary American highway filled with classic roadside attractions.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Scenic Drive"
+  },
+  {
+    "id": 81,
+    "destination": "Outer Banks",
+    "city": "Nags Head",
+    "state": "NC",
+    "description": "A chain of barrier islands known for beaches, dunes, and lighthouses.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Beach"
+  },
+  {
+    "id": 82,
+    "destination": "Mount St. Helens",
+    "city": "Castle Rock",
+    "state": "WA",
+    "description": "A famous active volcano with dramatic volcanic landscapes and trails.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Mountain"
+  },
+  {
+    "id": 83,
+    "destination": "Palm Springs",
+    "city": "Palm Springs",
+    "state": "CA",
+    "description": "A sunny desert city known for resorts, golf courses, and mid-century architecture.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Desert"
+  },
+  {
+    "id": 84,
+    "destination": "Cuyahoga Valley National Park",
+    "city": "Cleveland",
+    "state": "OH",
+    "description": "A peaceful national park featuring forests, waterfalls, and scenic trails.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 85,
+    "destination": "Mackinac Island",
+    "city": "Mackinac Island",
+    "state": "MI",
+    "description": "A charming island destination with historic buildings and no cars allowed.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Island"
+  },
+  {
+    "id": 86,
+    "destination": "Sunset Strip",
+    "city": "West Hollywood",
+    "state": "CA",
+    "description": "An iconic nightlife district filled with music venues and entertainment.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Entertainment"
+  },
+  {
+    "id": 87,
+    "destination": "Haleakalā National Park",
+    "city": "Kula",
+    "state": "HI",
+    "description": "A volcanic national park famous for sunrise views above the clouds.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 88,
+    "destination": "Lake George",
+    "city": "Lake George",
+    "state": "NY",
+    "description": "A scenic Adirondack lake destination with boating and mountain views.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Lake"
+  },
+  {
+    "id": 89,
+    "destination": "Blue Ridge Parkway",
+    "city": "Asheville",
+    "state": "NC",
+    "description": "A breathtaking scenic drive through the Appalachian Highlands.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Scenic Drive"
+  },
+  {
+    "id": 90,
+    "destination": "Fisherman’s Wharf",
+    "city": "San Francisco",
+    "state": "CA",
+    "description": "A bustling waterfront district known for seafood, shops, and bay views.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Waterfront"
+  },
+  {
+    "id": 91,
+    "destination": "Great Sand Dunes National Park",
+    "city": "Mosca",
+    "state": "CO",
+    "description": "Home to the tallest sand dunes in North America surrounded by mountains.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 92,
+    "destination": "Napa Valley",
+    "city": "Napa",
+    "state": "CA",
+    "description": "A world-famous wine region featuring vineyards and rolling hills.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Wine Region"
+  },
+  {
+    "id": 93,
+    "destination": "Olympic National Park",
+    "city": "Port Angeles",
+    "state": "WA",
+    "description": "A diverse national park with rainforests, mountains, and rugged coastline.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "National Park"
+  },
+  {
+    "id": 94,
+    "destination": "Dollywood",
+    "city": "Pigeon Forge",
+    "state": "TN",
+    "description": "A popular theme park blending rides, music, and Appalachian culture.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Theme Park"
+  },
+  {
+    "id": 95,
+    "destination": "Jackson Hole",
+    "city": "Jackson",
+    "state": "WY",
+    "description": "A gateway to the Tetons known for skiing and Western charm.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Mountain"
+  },
+  {
+    "id": 96,
+    "destination": "The Getty Center",
+    "city": "Los Angeles",
+    "state": "CA",
+    "description": "A renowned art museum with gardens and panoramic city views.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Museum"
+  },
+  {
+    "id": 97,
+    "destination": "Coral Gables",
+    "city": "Miami",
+    "state": "FL",
+    "description": "A historic neighborhood known for Mediterranean-style architecture and tree-lined streets.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Historic District"
+  },
+  {
+    "id": 98,
+    "destination": "Garden of the Gods",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "description": "A public park featuring towering red rock formations and scenic trails.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Park"
+  },
+  {
+    "id": 99,
+    "destination": "Providence Riverwalk",
+    "city": "Providence",
+    "state": "RI",
+    "description": "A charming downtown waterfront area with bridges, parks, and restaurants.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "Waterfront"
+  },
+  {
+    "id": 100,
+    "destination": "Teton National Park",
+    "city": "Moose",
+    "state": "WY",
+    "description": "A spectacular mountain park known for jagged peaks and alpine lakes.",
+    "image_url": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800",
+    "category": "National Park"
+  }
+]
